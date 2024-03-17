@@ -1,8 +1,8 @@
-package Lab02;
 import java.util.Scanner;
 public class JPA06 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
+        for(int i = 0;i <= 3;i++){
         System.out.println("Input Chinese score:");//輸出
         int score1 = scn.nextInt();//輸入中文變數
         System.err.println("Input English score:");//輸出
@@ -21,7 +21,8 @@ public class JPA06 {
         }//小於60輸出
         if (score1 >= 60 && score2 >= 60 && score3 >= 60){
             System.out.println("All pass");
-        }//若三者都大於60輸出
+        }}//若三者都大於60輸出
         scn.close();
     }
 }
+
