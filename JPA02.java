@@ -1,18 +1,16 @@
 import java.util.Scanner;
-public class JPA02 {
+public class JPA03 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);//宣告scn為輸入清單
-        for(int i = 0;i<=1;i++){
-        System.out.println("Input:");//輸出
-        int num1 = scn.nextInt();//輸入變數1
-        int num2 = scn.nextInt();//輸入變數2
-        if (num1 > num2){//這裡沒有考慮兩數相等，故用二分法即可
-            System.out.println(num1+" is large than "+num2);
+        for(int i = 0; i <= 1;i++){
+        System.out.println("Input an integer:");//輸出
+        int num = scn.nextInt();//輸入變數
+        if (num%2==0){//判斷奇偶用%  %=>為取餘數
+            System.out.println("The number is even.");//如果為0輸出
         }
         else{
-            System.out.println(num2 +" is large than "+num1);
-        }}
-        scn.close();
+            System.out.println("The number is odd.");//如果為1輸出 *注意else是二分法，這裡因為是除以二不是1就是0，若改題目不一定有效
+        }
+    }scn.close();//關閉清單
     }
 }
-
