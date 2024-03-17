@@ -5,7 +5,7 @@ public class JPA08 {
         Scanner scn = new Scanner(System.in);//宣告輸入清單
         System.out.println("Input:");//輸出
         int score;//宣告整數變數score
-        for(int i = 0;i <= 4;i++){
+        for(int i = 0;i <= 4;i++){//重複五次
         score = scn.nextInt();//輸入
         if (score>=90){//判斷1
             System.out.println("Your grade is A");//成立輸出
