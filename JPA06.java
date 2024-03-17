@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class JPA06 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
-        for(int i = 0;i <= 3;i++){
+        for(int i = 0;i <= 3;i++){//重複四次
         System.out.println("Input Chinese score:");//輸出
         int score1 = scn.nextInt();//輸入中文變數
         System.err.println("Input English score:");//輸出
