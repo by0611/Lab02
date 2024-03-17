@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class JPA07 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);//宣告scn為輸入清單
-        for(int i = 0;i <= 3;i++){
+        for(int i = 0;i <= 3;i++){//重複四次
         System.out.println("請輸入三個整數:");//輸出
         int a = scn.nextInt();//輸入第一個邊
         int b = scn.nextInt();//輸入第二個邊
